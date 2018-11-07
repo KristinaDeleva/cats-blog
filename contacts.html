@@ -1,0 +1,70 @@
+---
+layout: site
+title: Contacts
+permalink: /contacts/
+---
+    <section class="contacts">
+        <h1>Contact Us</h1>
+        <form action="#">
+            <h2>Should you have any questions, please do not hesitate to contact me :</h2>
+          
+            <div class="left-contacts">
+
+                <div class="form-group">
+                    <p>Name <span>*</span></p>
+                    <span class="icon-case"><i class="fa fa-user"></i></span>
+                    <input type="text"/>
+                    <div class="validation"></div>
+                </div>
+
+                <div class="form-group">
+                    <p>Surname <span>*</span></p>
+                    <span class="icon-case"><i class="fa fa-user"></i></span>
+                    <input type="text"/>
+                    <div class="validation"></div>
+                </div>
+
+                <div class="form-group">
+                    <p>E-mail <span>*</span></p>
+                    <span class="icon-case"><i class="fa fa-envelope"></i></span>
+                    <input type="email"/>
+                    <div class="validation"></div>
+                </div>
+            </div>
+
+            <div class="right-contacts">
+
+                <div class="form-group">
+                    <p>City <span>*</span></p>
+                    <span class="icon-case"><i class="fa fa-building"></i></span>
+                    <input type="text"/>
+                    <div class="validation"></div>
+                </div>
+
+                <div class="form-group">
+                    <p>Phone number <span>*</span></p>
+                    <span class="icon-case"><i class="fa fa-phone"></i></span>
+                    <input type="text"/>
+                    <div class="validation"></div>
+                </div>
+
+                <div class="form-group">
+                    <p>Message <span>*</span></p>
+                    <span class="icon-case"><i class="fa fa-comments"></i></span>
+                    <textarea rows="14"></textarea>
+                    <div class="validation"></div>
+                </div>
+
+            </div>
+
+            <button type="submit" class="button-contact" onclick="alertMsg()">Send</button>
+
+        </form>
+		
+    </section>
+	
+	<script>
+		function alertMsg() {
+			alert('Your message has been sent successfully. Thank you. ')
+		}
+	</script>
