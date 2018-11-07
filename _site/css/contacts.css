@@ -1,0 +1,145 @@
+@import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+
+.contacts {
+    margin: auto;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    text-align:center;
+    color: #666;
+    text-shadow: 1px 1px 0 #FFF;
+    margin: 50px 0 0 0;
+}
+
+form h2 {
+    font-size: 18px;
+	text-align: center;
+    background: #AAA;
+    color: white;
+    padding: 22px 25px;
+    border-radius: 5px 5px 0 0;
+    margin: 0 auto;
+}
+
+form {
+    border-radius: 5px;
+    max-width:700px;
+    width:100%;
+    margin: 5% auto;
+    background-color: #FFFFFF;
+    overflow: hidden;
+}
+
+p {
+    margin: 0;
+    font-weight: 500;
+    line-height: 2;
+    color:#333;
+	padding: 10px;
+}
+
+p span {
+    color: #F00;
+}
+
+input {
+    width: 56%;
+    border-radius: 15px;
+    border: none;
+    padding: 15px;
+    padding-left: 45px;
+    color: #AAA;
+    font-weight: bold;
+    background: #E6E6E6;
+    outline: none;
+}
+
+textarea {
+    width: 58%;
+    height: 130px;
+    border-radius: 15px;
+    border: none;
+    padding: 8px;
+    padding-left: 45px;
+    color: #AAA;
+    font-weight: bold;
+    background: #E6E6E6;
+    outline: none;
+}
+
+.form-group {
+    overflow: hidden;
+    clear: both;
+}
+
+
+.fa {
+    display: inline-block;
+    /*font-family: FontAwesome;*/
+    font-style: normal;
+    position: relative;
+    padding-left: 48px;
+}
+
+.icon-case {
+    width: 35px;
+    float: left;
+    border-radius: 5px 0 0 5px;
+	height: 12px;
+    font-size: 15px;
+    position: relative;
+    text-align: center;
+    line-height: 37px;
+}
+
+i {
+    color:#555;
+}
+
+.left-contacts {
+    width:49.5%;
+    float:left;
+    border-right: 1px dotted #CCC;
+    box-sizing: border-box;
+    padding: 0 15px 0 0;
+}
+
+.right-contacts {
+    width:49.5%;
+    float:right;
+    box-sizing: border-box;
+    padding: 0 0 0 15px;
+}
+
+
+.validation {
+    display:none;
+    margin: 0 0 10px;
+    font-weight:400;
+    font-size:13px;
+    color: #DE5959;
+}
+
+.button-contact {
+    background-color: #AAA;
+    color: #FFF;
+    text-align: center;
+    width: 100%;
+    border:0;
+    padding: 17px 25px;
+    border-radius: 0 0 5px 5px;
+    cursor: pointer;
+    margin-top: 40px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 500px) {
+    input, textarea {
+        width: 35%;
+        padding-left: 35px;
+    }
+}
+
