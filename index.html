@@ -1,8 +1,37 @@
----
-layout: site
----
-
-<div class="site">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>British Cats!</title>
+    <link rel="stylesheet" href="/cats-blog/css/style.css">
+</head>
+<body>
+		<div class="site">
+		<input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
+        <header class="site-header">
+            <div class="wrapper">
+                <div class="site-branding">
+                    <p class="site-title">
+                        <a href="/cats-blog/">British Shorthair</a>
+                    </p>
+                </div>
+                <label for="main-nav-toggle" id="toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    Menu
+                </label>
+                <nav class="navigation main">
+                    <ul>
+                        <li><a href="/cats-blog/">Home</a></li>
+                        <li><a href="/cats-blog/about/">About</a></li>
+                        <li><a href="/cats-blog/gallery/">Gallery</a></li>
+                        <li><a href="/cats-blog/contacts/">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+			<div class="site">
 
         <section class="image"></section>
 
@@ -16,10 +45,10 @@ layout: site
                 <section class="sitemap">
                     <h6>Sitemap</h6>
                     <ul>
-                        <li><a href="{{site.baseurl}}/">Home</a></li>
-                        <li><a href="{{site.baseurl}}/gallery/">Gallery</a></li>
-                        <li><a href="{{site.baseurl}}/about/">About</a></li>
-                        <li><a href="{{site.baseurl}}/contacts/">Contacts</a></li>
+                        <li><a href="/cats-blog/">Home</a></li>
+                        <li><a href="/cats-blog/gallery/">Gallery</a></li>
+                        <li><a href="/cats-blog/about/">About</a></li>
+                        <li><a href="/cats-blog/contacts/">Contacts</a></li>
                     </ul>
                 </section>
 
@@ -42,3 +71,7 @@ layout: site
         </footer>
 	
     </div>
+
+		</div>
+</body>
+</html>

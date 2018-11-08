@@ -1,9 +1,37 @@
----
-layout: site
-title: Contacts
-permalink: /contacts/
----
-    <section class="contacts">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>British Cats!</title>
+    <link rel="stylesheet" href="/cats-blog/css/style.css">
+</head>
+<body>
+		<div class="site">
+		<input type="checkbox" name="main-nav-toggle" id="main-nav-toggle">
+        <header class="site-header">
+            <div class="wrapper">
+                <div class="site-branding">
+                    <p class="site-title">
+                        <a href="/cats-blog/">British Shorthair</a>
+                    </p>
+                </div>
+                <label for="main-nav-toggle" id="toggle">
+                    <i class="fas fa-bars"></i>
+                    <i class="fas fa-times"></i>
+                    Menu
+                </label>
+                <nav class="navigation main">
+                    <ul>
+                        <li><a href="/cats-blog/">Home</a></li>
+                        <li><a href="/cats-blog/about/">About</a></li>
+                        <li><a href="/cats-blog/gallery/">Gallery</a></li>
+                        <li><a href="/cats-blog/contacts/">Contacts</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+			    <section class="contacts">
         <h1>Contact Us</h1>
         <form action="#">
             <h2>Should you have any questions, please do not hesitate to contact me :</h2>
@@ -68,3 +96,6 @@ permalink: /contacts/
 			alert('Your message has been sent successfully. Thank you. ')
 		}
 	</script>
+		</div>
+</body>
+</html>
